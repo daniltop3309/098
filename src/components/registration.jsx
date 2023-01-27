@@ -65,14 +65,14 @@ function handleSubmit(e) {
             />
         </p>
         <p>
-            <label>€mail:</label><br />
+            <label>E-mail:</label><br />
             <input type="text" value={email}
             onChange={onEmailChange}
             style={{ borderColor: emailColor }}
             />
         </p>
         <p>
-            <label>Bospact:</label><br />
+            <label>Bospacт:</label><br />
             <input type="number" value={age}
             onChange={onAgeChange} style={{ borderColor: ageColor }}
             />
